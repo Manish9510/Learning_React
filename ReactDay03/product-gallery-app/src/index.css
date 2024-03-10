@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.image-container {
+  width: 15%;
+  height: 15%;
+}
+h2 {
+  color: green;
+}
+.main {
+  border-radius: 8px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 5px #777777, -5px -5px 5px #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+p,
+h1{
+  font-weight: bold;
+  color: #891652;
+}
+.text-container{
+  padding-bottom: 15px;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} 
+
+ .card{
+  width: 30%;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 24px;
+}
+
+.create-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-heading{
+  margin-right: 5px;
+}
+
+.create-button{
+  cursor: pointer;
+  background-color: #bd2372;
+  border: none;
+  padding: 0.5% 1.0%;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.label-txt {
+  font-size: 20px;
+  margin-right: 10px;
+}
