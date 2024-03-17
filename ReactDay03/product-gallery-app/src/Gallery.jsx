@@ -13,7 +13,7 @@ const Gallery = () => {
     setInterval(() => setIsLoaded(true), 1000);
 
     // Calling API
-    fetch('https://fakestoreapi.com/products?limit=10')
+    fetch('https://fakestoreapi.com/products?limit=100')
       .then((data) => {
         console.log(data);
         return data.json();
